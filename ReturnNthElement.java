@@ -2,7 +2,7 @@ package com.Tomcat;
 //Prit Patel
 //Problem no 1 OA 2
 public class ReturnNthElement {
-    //Complexity will be O(n)
+    //Complexity will be O(nlogn)
     public int returnNthElement(int n){
         long index=n;
         long length=1, start=1, count=9;
